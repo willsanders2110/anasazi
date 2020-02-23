@@ -1,0 +1,201 @@
+Simulation beginning...
+Repast rank: 0
+Map bounds: Point[1, 1] to Point[121, 81]
+
+Map initialising...
+
+Household created: 1
+Household created: 2
+Household created: 3
+Household created: 4
+Household created: 5
+Household created: 6
+Household created: 7
+Household created: 8
+Household created: 9
+Household created: 10
+Household created: 11
+Household created: 12
+Household created: 13
+Household created: 14
+Household 13 moved its maize field
+Household 13 moved within 1km nearest water
+Household 14 moved its maize field
+Household 14 moved within 1km nearest water
+Household 5 moved its maize field
+Household 5 moved within 1km nearest water
+Household 2 moved its maize field
+Household 2 moved within 1km nearest water
+Household 10 moved its maize field
+Household 10 moved within 1km nearest water
+Household 7 moved its maize field
+Household 7 moved within 1km nearest water
+Household 4 moved its maize field
+Household 4 moved within 1km nearest water
+Household 1 moved its maize field
+Household 1 moved within 1km nearest water
+Household 3 moved its maize field
+Household 3 moved within 1km with good yield nearest water
+Household 8 moved its maize field
+Household 8 moved within 1km with good yield nearest water
+Household 11 moved its maize field
+Household 11 moved within 1km nearest water
+Household 9 moved its maize field
+Household 9 moved within 1km nearest water
+Household 12 moved its maize field
+Household 12 moved within 1km nearest water
+Household 6 moved its maize field
+Household 6 moved within 1km nearest water
+
+...map initialised
+
+Year: 800
+Number of agents alive: 14
+Household 14 removed: reached death age
+
+Year: 801
+Number of agents alive: 13
+Household 3 removed: ran out of food
+Household 2 removed: ran out of food
+Household 12 removed: ran out of food
+Household 11 removed: ran out of food
+Household 10 removed: ran out of food
+Household 9 removed: ran out of food
+Household 1 removed: ran out of food
+Household 5 removed: ran out of food
+Household 8 removed: ran out of food
+
+Year: 802
+Number of agents alive: 4
+Household 6 removed: reached death age
+
+Year: 803
+Number of agents alive: 3
+
+Year: 804
+Number of agents alive: 3
+
+Year: 805
+Number of agents alive: 3
+
+Year: 806
+Number of agents alive: 3
+Household 4 removed: reached death age
+
+Year: 807
+Number of agents alive: 2
+Household 13 removed: reached death age
+Household created: 15
+Household 15 moved its maize field
+Household 15 moved within 1km nearest water
+
+Year: 808
+Number of agents alive: 2
+
+Year: 809
+Number of agents alive: 2
+
+Year: 810
+Number of agents alive: 2
+
+Year: 811
+Number of agents alive: 2
+Household created: 16
+Household 16 moved its maize field
+Household 16 moved within 1km nearest water
+
+Year: 812
+Number of agents alive: 3
+
+Year: 813
+Number of agents alive: 3
+
+Year: 814
+Number of agents alive: 3
+
+Year: 815
+Number of agents alive: 3
+
+Year: 816
+Number of agents alive: 3
+
+Year: 817
+Number of agents alive: 3
+
+Year: 818
+Number of agents alive: 3
+Household 7 removed: reached death age
+
+Year: 819
+Number of agents alive: 2
+
+Year: 820
+Number of agents alive: 2
+
+Year: 821
+Number of agents alive: 2
+
+Year: 822
+Number of agents alive: 2
+
+Year: 823
+Number of agents alive: 2
+
+Year: 824
+Number of agents alive: 2
+
+Year: 825
+Number of agents alive: 2
+
+Year: 826
+Number of agents alive: 2
+
+Year: 827
+Number of agents alive: 2
+
+Year: 828
+Number of agents alive: 2
+
+Year: 829
+Number of agents alive: 2
+
+Year: 830
+Number of agents alive: 2
+
+Year: 831
+Number of agents alive: 2
+
+Year: 832
+Number of agents alive: 2
+
+Year: 833
+Number of agents alive: 2
+
+Year: 834
+Number of agents alive: 2
+
+Year: 835
+Number of agents alive: 2
+
+Year: 836
+Number of agents alive: 2
+
+Year: 837
+Number of agents alive: 2
+Household 15 removed: reached death age
+
+Year: 838
+Number of agents alive: 1
+
+Year: 839
+Number of agents alive: 1
+
+Year: 840
+Number of agents alive: 1
+
+Year: 841
+Number of agents alive: 1
+Household 16 removed: reached death age
+Model stopped at year: 841
+
+Model complete - simulation terminated.

@@ -1,0 +1,26 @@
+lower.death.age = 22
+upper.death.age = 28
+lower.infertility.age = 22
+upper.infertility.age = 28
+lower.fission.prob = 0.0395175
+upper.fission.prob = 0.178908
+mean.maize.harvest = 0.00870862
+variance.maize.harvest = 0.387251
+global.random.seed = 2
+board.size.x = 120
+board.size.y = 80
+start.year = 800
+end.year = 1350
+count.of.agents = 14
+upper.random.age = 30
+lower.random.age = 10
+death.age.change.year = 850
+fertile.age = 16
+minimum.maize = 2
+upper.init.maize = 1600
+lower.init.maize = 1500
+harvest.adj.level = 1
+soil.quality = 1
+household.field.distance = 10
+household.water.distance = 10
+

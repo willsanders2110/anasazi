@@ -1,0 +1,177 @@
+install.packages("dplyr")
+install.packages("dplyr")
+install.packages("dplyr")
+library (dplyr)
+library (ggplot2)
+target.data <- read.csv(file='target_data_both_columns.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges both data sets into one
+df <- data.frame(target.data, calibration.data)
+ggplot(data = df, aes(x = year, y = households)) + geom_line(colour = 'black') + geom_line(y = calibration, colour = 'red')
+View(df)
+ggplot(data = df, aes(x = year, y = households)) + geom_line(colour = 'black') + geom_line(x = year, y = calibration, colour = 'red')
+ggplot(data = df, aes(x = year, y = calibration)) + geom_line(colour = 'black')
++ geom_line(y = households, colour = 'red')
+df%>%
+ggplot(data = df, aes(x = year, y = households)) + geom_line(colour = 'black') + geom_line(y = households, colour = 'red')
+ggplot(aes(x = year, y = households)) + geom_line(colour = 'black') + geom_line(y = households, colour = 'red')
+df%>%
+ggplot(aes(x = year, y = households)) + geom_line(colour = 'black') + geom_line(y = households, colour = 'red')
+df%>%
+ggplot(aes(x = year, y = households)) + geom_line(colour = 'black') + geom_line(y = calibration, colour = 'red')
+ggplot(aes(x = year, y = households)) + geom_line(colour = 'black')
+df%>%
+ggplot(aes(x = year, y = households)) + geom_line(colour = 'black')
+library (ggplot2)
+# creates graphs
+year <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+df <- data.frame(target.data, calibration.data)
+View(df)
+View(df)
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+df <- data.frame(year.data, target.data, calibration.data)
+# creates graphs
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges both data sets into one
+df <- data.frame(year.data, target.data, calibration.data)
+ggplot(data = df, aes(x = year.data, y = target.data)) + geom_line(colour = 'black') + geom_line(y = calibration.data, colour = 'red')
+View(df)
+View(df)
+ggplot(data = df, aes(x = year.data, y = target.data)) + geom_line(colour = 'black')
+library (ggplot2)
+# creates graphs
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data_test.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges both data sets into one
+df <- data.frame(year.data, target.data, calibration.data)
+ggplot(data = df, aes(x = year.data, y = target.data)) + geom_line(colour = 'black') + geom_line(y = calibration.data, colour = 'red')
+ggplot(data = df, aes(x = year, y = thouseholds)) + geom_line(colour = 'black') + geom_line(y = chouseholds, colour = 'red')
+ggplot(data = df, aes(x = year, y = thouseholds)) + geom_line(colour = 'black')
+library (ggplot2)
+# creates graphs
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data_test.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges both data sets into one
+df <- data.frame(year.data, target.data, calibration.data)
+#creates initial plot of target data
+p <- ggplot(data = df, aes(x = year, y = thouseholds)) + geom_line(colour = 'black')
+#adds line to represent calibrated model data
+p +  layer(geom_line(y = chouseholds, colour = 'red'))
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data_test.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges both data sets into one
+df <- data.frame(year.data, target.data, calibration.data)
+#creates initial plot of target data
+p <- ggplot(data = df, aes(x = year, y = thouseholds)) + geom_line(colour = 'black')
+#adds line to represent calibrated model data
+p +  layer(data = df, aes(x = year, y = chouseholds) + geom_line(colour = 'red'))
+#adds line to represent calibrated model data
+p +  layer(geom_line + data = df, aes(x = year, y = chouseholds) (colour = 'red'))
+p +  layer(geom_line + aes(x = year, y = chouseholds) (colour = 'red'))
+p +  layer(geom_line, aes(x = year, y = chouseholds) (colour = 'red'))
+p +  layer(geom_line(y = chouseholds, colour = 'red'))
++  layer(geom_line(y = chouseholds, colour = 'red'))
+p +  geom_line(data = df, y = chouseholds, colour = 'red')
+ggplot() + geom_line(data = df, aes(x = year, y = thouseholds, colour='black')) + geom_line(aes(y=chouseholds, colour='red'))
+library (ggplot2)
+# creates graphs
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data_test.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges both data sets into one
+df <- data.frame(year.data, target.data, calibration.data)
+#creates initial plot of target data
+ggplot() + geom_line(data = df, aes(x = year, y = thouseholds, colour='black')) + geom_line(aes(y=chouseholds, colour='red'))
+ggplot() + geom_line(data = df, aes(x = year, y = thouseholds, colour='black'))
+ggplot() + geom_line(data = df, aes(x = year, y = thouseholds))
+geom_line(aes(y=chouseholds, colour='red'))
++ geom_line(aes(y=chouseholds, colour='red'))
+ggplot() + geom_line(data = df, aes(x = year, y = thouseholds)) + geom_line(aes(y=chouseholds, colour='red'))
+View(df)
+library (ggplot2)
+# creates graphs
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data_test.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges both data sets into one
+df <- data.frame(year.data, target.data, calibration.data)
+#creates initial plot of target data
+ggplot() + geom_line(data = df, aes(x = year, y = thouseholds)) + geom_line(data= calibration.data, aes(y=chouseholds, colour='red'))
+library (ggplot2)
+# creates graphs
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data_test.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges both data sets into one
+df1 <- data.frame(year.data, target.data)
+df2 <- data.frame(year, calibration.data)
+df2 <- data.frame(year.data, calibration.data)
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data_test.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges both data sets into one
+df1 <- data.frame(year.data, target.data)
+df2 <- data.frame(year.data, calibration.data)
+#creates initial plot of target data
+ggplot() + geom_line(data = df, aes(x = year, y = thouseholds)) + geom_line(data= calibration.data, aes(y=chouseholds, colour='red'))
+ggplot() + geom_line(data = df, aes(x = year, y = thouseholds)) + geom_line(data= calibration.data, aes(x = year, y=chouseholds, colour='red'))
+library (ggplot2)
+# creates graphs
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data_test.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges the year with the data
+df1 <- data.frame(year.data, target.data)
+df2 <- data.frame(year.data, calibration.data)
+#creates initial plot of target data
+ggplot() + geom_line(data = df, aes(x = year, y = thouseholds)) + geom_line(data= calibration.data, aes(x = year, y=chouseholds, colour='red'))
+ggplot() + geom_line(data = df1, aes(x = year, y = thouseholds)) + geom_line(data= df2, aes(x = year, y=chouseholds, colour='red'))
+View(df1)
+View(df)
+library (ggplot2)
+# creates graphs
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges the year with each data set
+df1 <- data.frame(year.data, target.data)
+df2 <- data.frame(year.data, calibration.data)
+# creates plot of target data
+ggplot() + geom_line(data = df1, aes(x = year, y = thouseholds))
+# adds plot of calibration data to the existing graph
++ geom_line(data= df2, aes(x = year, y=chouseholds, colour='red'))
+library (ggplot2)
+# creates graphs
+year.data <- read.csv(file='year_data.csv')
+target.data <- read.csv(file='target_data_test.csv')
+# this line will need to change once you have the calibrated output file
+calibration.data <- read.csv(file='output_test.csv')
+# merges the year with each data set
+df1 <- data.frame(year.data, target.data)
+df2 <- data.frame(year.data, calibration.data)
+ggplot() + geom_line(data = df1, aes(x = year, y = thouseholds))
+# adds plot of calibration data to the existing graph
++ geom_line(data= df2, aes(x = year, y=chouseholds, colour='red'))
+ggplot() + geom_line(data = df1, aes(x = year, y = thouseholds)) + geom_line(data= df2, aes(x = year, y=chouseholds, colour='red'))
